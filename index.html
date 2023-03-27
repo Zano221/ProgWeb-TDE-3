@@ -2,25 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="stylesheet.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-
+        <h1>Bem Vindo!</h1>
     </header>
     
     <main>
-        <h1>Insira seu nome</h1>
-        <div id="desc">
-            <p>Necessitamos dos seus dados para analisar a anomalia que se passa por Manoel Gome na sua região</p>
+        <div class="main-title-div">
+            <h2 id="main-title">Insira seu nome</h2>
         </div>
-        <input>
-        <button>OK!</button>
+        <div id="desc">
+            <p>Insira seu nome para ser exibido na tela que vem a seguir. Você será premiado para um vírus gratuitamente!</p>
+            <p>O propósito deste formulário é para o alevantamento de dados da empresa em relação a possiveis vitimas do suposto [REDACTED]</p>
+        </div>
+        <div class="inputDiv">
+            <p class="error-p" id="ErrorMsg"></p>
+            <input type="text" id="input-field">
+        </div>
+        <button id="input-button" onclick=login()>OK!</button>
     </main>
 
     <footer>
-        
+        <p>Copyright 2023 Jão Corp em parecira com casas Ovisk</p>
     </footer>
 </body>
 
