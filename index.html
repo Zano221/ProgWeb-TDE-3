@@ -9,22 +9,23 @@
 </head>
 <body>
     <header>
-        <h1>Bem Vindo!</h1>
+        <h1>Formulário de Cobaias</h1>
     </header>
     
     <main>
-        <div class="main-title-div">
+        <div class="main-title-div hidden">
             <h2 id="main-title">Insira seu nome</h2>
         </div>
-        <div id="desc">
+        <div id="desc" class="hidden">
             <p>Insira seu nome para ser exibido na tela que vem a seguir. Você será premiado para um vírus gratuitamente!</p>
             <p>O propósito deste formulário é para o alevantamento de dados da empresa em relação a possiveis vitimas do suposto [REDACTED]</p>
         </div>
-        <div class="inputDiv">
+        <div class="inputDiv hidden">
             <p class="error-p" id="ErrorMsg"></p>
             <input type="text" id="input-field">
         </div>
-        <button id="input-button" onclick=login()>OK!</button>
+        <button id="input-button" class="hidden" onclick=login()>OK!</button>
+        <h1 id="bem-vindo">Bem vindo!</h1>
     </main>
 
     <footer>

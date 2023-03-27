@@ -71,6 +71,10 @@ main {
     padding: 14px 14px;
 }
 
+#bem-vindo {
+    display: none;
+}
+
 footer {
     display: flex;
     justify-content: center;
